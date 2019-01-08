@@ -15,10 +15,10 @@ Spring config server and client implementation. The client's configuration is au
 6. configclient project refers to the property "message" present in file ConfigClient.properties using URL http://localhost:8080/message (hitting this URL would display the message property)
 
 # Property Refresh
-7. Update the file ConfigClient.properties present at https://github.com/amitdhodi/spring-config-autorefresh.git location and commit it
+1. Update the file ConfigClient.properties present at https://github.com/amitdhodi/spring-config-autorefresh.git location and commit it
 
-8. Hit the refresh endpoint in client project (http://localhost:8080/actuator/refresh). This would fetch the latest property value from the ConfigClient.properties
+2. Hit the refresh endpoint in client project (http://localhost:8080/actuator/refresh). This would fetch the latest property value from the ConfigClient.properties
 
-9. Access the endpoint http://localhost:8080/message again, the updated property value is displayed
+3. Access the endpoint http://localhost:8080/message again, the updated property value is displayed
 
  
