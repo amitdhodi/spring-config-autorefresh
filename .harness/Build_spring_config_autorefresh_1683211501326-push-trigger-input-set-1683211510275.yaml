@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_spring_config_autorefresh_1683211501326-push-trigger-input-set
+  identifier: Build_spring_config_autorefresh_1683211501326pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_spring_config_autorefresh_1683211501326
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
